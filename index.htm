@@ -2994,6 +2994,19 @@ lang=JA style='font-size:10.0pt;font-family:"Meiryo",sans-serif;color:#555555'>�
 
 </div>
 
+<div style="margin: 50px 0; border-top: 1px solid #ccc; padding-top: 20px;">
+  <h2>技術文書検索バー</h2>
+  <p>キーワードを入力して検索してください：</p>
+  <input id="keyword" type="text" />
+  <button onclick="searchDB()">検索</button>
+
+  <!-- 検索結果を表示する場所 -->
+  <div id="results" style="margin-top: 20px; background: #f9f9f9; padding: 10px;"></div>
+</div>
+
+<!-- ▼ ここでCSV検索ロジックを読み込む -->
+<script src="script_search.js"></script>
+
 </body>
 
 </html>
