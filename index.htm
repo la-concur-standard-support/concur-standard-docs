@@ -1,0 +1,1188 @@
+<!DOCTYPE html>
+<!-- saved from url=(0076)https://assets.concur.com/Current_jp/STD_Guides_Exp/_Docs_Std_ExpHelp_jp.htm -->
+<html class="no-js" lang="ja"><!--<![endif]--><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+	
+
+	
+
+	<!-- Remove this line if you use the .htaccess -->
+
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+
+
+	<meta name="viewport" content="width=device-width">
+
+	
+
+	<meta name="description" content="Concur Expense Standard Edition 設定ガイド / ユーザー ガイド">
+
+	<meta name="author" content="Sylvain Lafitte, Web Designer, sylvainlafitte.com">
+
+	
+
+	<title>Concur Expense Standard Edition 設定ガイド / ユーザー ガイド</title>
+
+	
+
+<link rel="shortcut icon" href="https://www.concurtraining.com/sites/default/files/favicon_2.ico" type="image/vnd.microsoft.icon">
+
+	<link href="./index_files/css" rel="stylesheet" type="text/css">
+
+	<link rel="stylesheet" href="./index_files/style.css">
+
+	
+
+	<!--[if lt IE 9]>
+
+	<script src="https://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+
+	<![endif]-->
+
+</head>
+
+
+
+
+
+<body bgcolor="#cbcbc4">
+
+<font face="メイリオ">
+
+<!-- Prompt IE 7 users to install Chrome Frame -->
+
+<!--[if lt IE 8]><p class=chromeframe>Your browser is <em>ancient!</em> <a href="https://browsehappy.com/">Upgrade to a different browser</a> or <a href="https://www.google.com/chromeframe/?redirect=true">install Google Chrome Frame</a> to experience this site.</p><![endif]-->
+
+
+
+<div class="container">
+
+
+
+	<header id="navtop">
+
+			<img src="./index_files/Concur_Logo_HZ_Black_500px.png" alt=""><font size="4" color="#000000">　<b>Concur Expense Standard Edition 設定ガイド / ユーザー ガイド</b></font>
+
+		
+
+		<nav class="fright">
+
+		
+
+			<!--<ul>
+
+				<li><a href="https://www.concurtraining.com/customers/tech_pubs/_Docs_CCC_CPS_exp.htm" target="blank">English</a></li>
+
+			</ul>
+
+			<ul>
+
+				<li><a href="https://www.concur.com/ja-jp" target="blank">株式会社コンカー ホームページ</a></li>
+
+			</ul>
+
+			<ul>
+
+				<li><a href="https://assets.concur.com/Current_jp/_XXXX.htm" target="blank"><a href="https://assets.concur.com/Current_jp/ReleaseNotes_Std_Exp/_ReleaseNotesCPS_JAPAN.htm" target="_blank">リリース ノートとリリース予定日</a></a></li>
+
+			</ul>
+
+						
+
+			
+
+			
+
+			
+
+						<ul>
+
+				<li>ベーシック エンドユーザー ガイド（<a href="https://assets.concur.com/Current_jp/STD_Guides_Exp/Concur Standard Basic End-User Guide-jp.doc" target="blank">Doc</a> / <a href="https://assets.concur.com/Current_jp/STD_Guides_Exp/Concur Standard Basic End-User Guide-jp.pdf" target="_blank">PDF</a>)<font size="1" color="#ff0000">※ 2018/03/22更新しました</font></li>
+
+			</ul>
+
+			<ul>
+
+				<li><a href="https://assets.concur.com/Current_jp/Guides_Exp/icons-jp.pdf" target="blank">アイコン ガイド</a></li>
+
+			</ul>
+
+				<ul><a href="https://assets.concur.com/Current_jp/ReleaseNotes_Exp/_SupportedConfig_JAPAN.htm" target="blank">推奨環境</a></ul>
+
+				<ul><li><a href="https://assets.concur.com/Current_jp/NextGenExpense/FAQ_NextGen_Expense_User_Interface-jp.pdf" target="blank">新 UI に関するよくある質問</a> <font size="1" color="#ff0000">※ 2018/01/31版</font></li></ul>
+
+				<ul><li><a href="https://assets.concur.com/Current_jp/NextGenExpense/NextGenExp_transition_admin_STAN-jp.pdf" target="blank">管理者向け新 UI 移行ガイド</a> <font size="1" color="#ff0000">※ 2018/01/31版</font></li></ul>
+
+				<ul><li><a href="https://assets.concur.com/Current_jp/NextGenExpense/NextGenExp_transition_user-jp.pdf.pdf" target="blank">エンドユーザー向け新 UI 移行ガイド</a> <font size="1" color="#ff0000">※ 2018/02/20版</font></li></ul>-->
+
+				
+
+<ul>
+
+				<li><a href="https://www.concurtraining.com/customers/tech_pubs/_Docs_CCC_CPS_exp.htm" target="blank">English</a></li>
+
+			</ul>
+
+			<ul>
+
+				<li><a href="https://www.concur.com/ja-jp" target="blank">株式会社コンカー ホームページ</a></li>
+
+			</ul>
+
+			<ul>
+
+				<li><a href="https://www.concurtraining.com/standarddeployment/jp" target="_blank">Expense Standard 稼働までのツールキット</a></li>
+
+			</ul>
+
+			<ul>
+
+				<li><a href="https://assets.concur.com/Current_jp/_Docs_CCC_JAPAN.htm" target="blank">技術文書日本語版サイト マップに戻る</a></li>
+
+			</ul>
+
+													
+
+		</nav>
+
+	</header>
+
+
+
+
+
+	<div>
+
+		
+
+				
+
+		<section>
+
+			
+
+				<article>
+
+					<div class="meta">
+
+					
+
+</div>
+
+<!--  					
+
+<b>管理者ガイド</b>
+
+
+
+	 &nbsp;  
+
+		 &nbsp;  <table width="100%" border="2" cellspacing="0" cellpadding="3" bordercolor="#cbcbc4">
+
+<tbody><tr>
+
+    <th><p style="text-align: left"><a href="https://assets.concur.com/Current_jp/STD_Guides_Exp/Concur%20Expense%20Standard%20Manual%20for%20Admin.pdf" target="_blank">管理者マニュアル<font size="1" color="#ff0000">※ 2019/4月版</font></a></p></th></tr>
+
+<tr>
+
+<th><p style="text-align: left"><a href="https://assets.concur.com/Current_jp/STD_Guides_Exp/ExpStdManualforAdmin_CustomAuditRules.pdf" target="_blank">管理者マニュアル(別冊)_カスタム監査ルール<font size="1" color="#ff0000">※ 2019/6月版</font></a></p></th></tr><tr>
+
+	    <th><p style="text-align: left"><a href="https://assets.concur.com/Current_jp/STD_Guides_Exp/ExpStdManualforAdmin_CA.pdf" target="_blank">管理者マニュアル(別冊)_仮払<font size="1" color="#ff0000">※ 2018/8月版</font></a></p></th></tr><tr>
+
+	    <th><p style="text-align: left"><a href="https://assets.concur.com/Current_jp/STD_Guides_Exp/Exp_Std%20_Manual_for_Admin_ebunsho.pdf" target="_blank">管理者マニュアル(別冊)_E文書<font size="1" color="#ff0000">※2019/6月版</font></a></p></th></tr>
+
+    
+
+
+
+
+
+</tbody></table>
+
+-->
+
+
+
+
+
+<b>シンプル設定向けの設定ガイド</b>
+
+
+
+ &nbsp; &nbsp;
+
+ &nbsp; &nbsp;<table width="100%" border="2" cellspacing="0" cellpadding="3" bordercolor="#cbcbc4">
+
+  <tbody>
+    
+    <tr>
+
+    <td width="40%">Overview (Shared)</td><td width="40%">概要（製品共通)　<font size="1" color="#ff0000">(2021年3月22日版)</font></td>
+
+    <td>
+
+    <center>
+
+      <a href="https://assets.concur.com/Current_jp/STD_Guides_Exp/SG_Shr_Overview-jp.doc" target="_blank"><font color="#666666"><u>DOC</u></font></a> - <a href="https://assets.concur.com/Current_jp/STD_Guides_Exp/SG_Shr_Overview-jp.pdf" target="_blank"><font color="#666666"><u>PDF</u></font></a> 
+
+    </center>
+
+    </td>
+  
+    <!-- add -->
+    <td width="40%">
+      <a href="https://la-concur-helper.github.io/concur-standard-docs/SG_Shr_Overview-jp.html">https://la-concur-helper.github.io/concur-standard-docs/SG_Shr_Overview-jp.html</a>
+    </td>
+    <!-- add -->
+
+    </tr>
+
+	
+
+  <tr>
+
+    <td width="40%">Accounting (Shared)</td>
+
+    <td width="40%">会計管理（製品共通)　<font size="1">(2018年06月18日版)</font></td>
+
+    <td>
+
+<center>
+
+  <a href="https://assets.concur.com/Current_jp/STD_Guides_Exp/SG_Shr_Accounting-jp.doc" target="_blank"><font color="#666666"><u>DOC</u></font></a> - <a href="https://assets.concur.com/Current_jp/STD_Guides_Exp/SG_Shr_Accounting-jp.pdf" target="_blank"><font color="#666666"><u>PDF</u></font></a> 
+
+  </center>
+
+</td>
+
+    <!-- add -->
+    <td width="40%">
+      <a href="https://la-concur-helper.github.io/concur-standard-docs/SG_Shr_Accounting-jp.html">https://la-concur-helper.github.io/concur-standard-docs/SG_Shr_Accounting-jp.html</a>
+    </td>
+    <!-- add -->
+
+</tr>
+
+
+
+
+
+ 
+
+
+
+  <tr>
+
+    <td width="40%">Policy Groups (Shared)</td>
+
+    <td width="40%">ポリシー グループ（製品共通） <font size="1" font="" color="ff0000">(2021年12月10日版)</font></td>
+
+    <td>
+
+	<center>
+
+  <a href="https://assets.concur.com/Current_jp/STD_Guides_Exp/SG_Shr_Policy_Groups-jp.doc" target="_blank"><font color="#666666"><u>DOC</u></font></a> - <a href="https://assets.concur.com/Current_jp/STD_Guides_Exp/SG_Shr_Policy_Groups-jp.pdf" target="_blank"><font color="#666666"><u>PDF</u></font></a> 
+
+  </center>
+
+</td>
+
+    <!-- add -->
+    <td width="40%">
+      <a href="https://la-concur-helper.github.io/concur-standard-docs/SG_Shr_Policy_Groups-jp.html">https://la-concur-helper.github.io/concur-standard-docs/SG_Shr_Policy_Groups-jp.html</a>
+    </td>
+    <!-- add -->
+
+</tr>
+
+
+
+
+
+  <tr>
+
+    <td width="40%">Custom Fields (Shared)</td>
+
+    <td width="40%">カスタム フィールド（製品共通）　<font size="1" font="" color="ff0000">(2022年5月21日版)</font></td>
+
+    <td>
+
+	<center>
+
+  <a href="https://assets.concur.com/Current_jp/STD_Guides_Exp/SG_Shr_Custom_Fields-jp.doc" target="_blank"><font color="#666666"><u>DOC</u></font></a> - <a href="https://assets.concur.com/Current_jp/STD_Guides_Exp/SG_Shr_Custom_Fields-jp.pdf" target="_blank"><font color="#666666"><u>PDF</u></font></a> 
+
+  </center>
+
+</td>
+
+    <!-- add -->
+    <td width="40%">
+      <a href="https://la-concur-helper.github.io/concur-standard-docs/SG_Shr_Custom_Fields-jp.html">https://la-concur-helper.github.io/concur-standard-docs/SG_Shr_Custom_Fields-jp.html</a>
+    </td>
+    <!-- add -->
+
+  </tr>
+
+
+
+
+
+  <tr>
+
+    <td width="40%">Expense Types</td>
+
+    <td width="40%">経費タイプ　<font size="1">(2024年4月20日版)</font></td>
+
+    <td>
+
+	<center>
+
+  <a href="https://assets.concur.com/Current_jp/STD_Guides_Exp/SG_Exp_Expense_Types-jp.doc" target="_blank"><font color="#666666"><u>DOC</u></font></a> - <a href="https://assets.concur.com/Current_jp/STD_Guides_Exp/SG_Exp_Expense_Types-jp.pdf" target="_blank"><font color="#666666"><u>PDF</u></font></a> 
+
+  </center>
+
+</td>
+
+    <!-- add -->
+    <td width="40%">
+      <a href="https://la-concur-helper.github.io/concur-standard-docs/SG_Exp_Expense_Types-jp.html">https://la-concur-helper.github.io/concur-standard-docs/SG_Exp_Expense_Types-jp.html</a>
+    </td>
+    <!-- add -->
+
+</tr>
+
+
+<tr>
+
+    <td width="40%">Expense Types Import</td>
+
+    <td width="40%">経費タイプ インポート　<font size="1" color="ff0000">(2024年4月20日版)</font></td>
+
+    <td>
+
+	<center>
+
+  <a href="https://assets.concur.com/Current_jp/STD_Guides_Exp/SG_Exp_Expense_Types_Import-jp.doc" target="_blank"><font color="#666666"><u>DOC</u></font></a> - <a href="https://assets.concur.com/Current_jp/STD_Guides_Exp/SG_Exp_Expense_Types_Import-jp.pdf" target="_blank"><font color="#666666"><u>PDF</u></font></a> 
+
+  </center>
+
+</td></tr>
+
+
+
+
+  <tr>
+
+    <td width="40%">Taxation</td>
+
+    <td width="40%">課税　<font size="1" font="" color="ff0000">(2024年7月4日版)</font></td>
+
+    <td>
+
+<center>
+
+  <a href="https://assets.concur.com/Current_jp/STD_Guides_Exp/SG_Exp_Taxation-jp.doc" target="_blank"><font color="#666666"><u>DOC</u></font></a> - <a href="https://assets.concur.com/Current_jp/STD_Guides_Exp/SG_Exp_Taxation-jp.pdf" target="_blank"><font color="#666666"><u>PDF</u></font></a> 
+
+  </center>
+
+</td></tr>
+
+
+
+
+
+  <tr>
+
+    <td width="40%">Approval Routing</td>
+
+    <td width="40%">承認フロー　<font size="1" color="#ff0000">(2021年01月21日版)</font></td>
+
+    <td>
+
+	<center>
+
+  <a href="https://assets.concur.com/Current_jp/STD_Guides_Exp/SG_Exp_Approval_Routing-jp.doc" target="_blank"><font color="#666666"><u>DOC</u></font></a> - <a href="https://assets.concur.com/Current_jp/STD_Guides_Exp/SG_Exp_Approval_Routing-jp.pdf" target="_blank"><font color="#666666"><u>PDF</u></font></a> 
+
+  </center>
+
+</td></tr>
+
+
+
+  <tr>
+
+    <td width="40%">Budget (Shared)</td>
+
+    <td width="40%">予算　<font size="1">(2020年02月21日版)</font></td>
+
+    <td>
+
+	<center>
+
+  <a href="https://assets.concur.com/Current_jp/STD_Guides_Exp/SG_Shr_Budget_Std-jp.doc" target="_blank"><font color="#666666"><u>DOC</u></font></a> - <a href="https://assets.concur.com/Current_jp/STD_Guides_Exp/SG_Shr_Budget_Std-jp.pdf" target="_blank"><font color="#666666"><u>PDF</u></font></a> 
+
+  </center>
+
+</td></tr>
+
+
+
+
+
+  <tr>
+
+    <td width="40%">Compliance Controls</td>
+
+    <td width="40%">コンプライアンス　<font size="1" font="" color="ff0000">(2024年7月1日版)</font></td>
+
+    <td>
+
+	<center>
+
+  <a href="https://assets.concur.com/Current_jp/STD_Guides_Exp/SG_Exp_Compliance_Controls-jp.doc" target="_blank"><font color="#666666"><u>DOC</u></font></a> - <a href="https://assets.concur.com/Current_jp/STD_Guides_Exp/SG_Exp_Compliance_Controls-jp.pdf" target="_blank"><font color="#666666"><u>PDF</u></font></a> 
+
+  </center>
+
+</td></tr>
+
+
+
+
+
+  <tr>
+
+    <td width="40%">Car Configuration</td>
+
+    <td width="40%">車両構成　<font size="1">(2015年01月16日版)</font></td>
+
+    <td>
+
+	<center>
+
+  <a href="https://assets.concur.com/Current_jp/STD_Guides_Exp/SG_Exp_Car_Configuration-jp.doc" target="_blank"><font color="#666666"><u>DOC</u></font></a> - <a href="https://assets.concur.com/Current_jp/STD_Guides_Exp/SG_Exp_Car_Configuration-jp.pdf" target="_blank"><font color="#666666"><u>PDF</u></font></a> 
+
+  </center>
+
+</td></tr>
+
+
+
+<tr>
+
+    <td width="40%">Data Retention (Shared)</td>
+
+    <td width="40%">データ保持（製品共通）　<font size="1" font="" color="ff0000">(2024年1月30日版)</font></td>
+
+    <td>
+
+	<center>
+
+  <a href="https://assets.concur.com/Current_jp/STD_Guides_Exp/SG_Shr_Data_Retention-jp.docx" target="_blank"><font color="#666666"><u>DOC</u></font></a> - <a href="https://assets.concur.com/Current_jp/STD_Guides_Exp/SG_Shr_Data_Retention-jp.pdf" target="_blank"><font color="#666666"><u>PDF</u></font></a> 
+
+  </center>
+
+</td></tr>
+
+
+<tr>
+
+    <td width="40%">Digital Receipts</td>
+
+    <td width="40%">デジタル領収書　<font size="1" font="" color="ff0000">(2022年8月20日版)</font></td>
+
+    <td>
+
+	<center>
+
+  <a href="https://assets.concur.com/Current_jp/STD_Guides_Exp/SG_Exp_Digital_Receipts_ja.docx" target="_blank"><font color="#666666"><u>DOC</u></font></a> - <a href="https://assets.concur.com/Current_jp/STD_Guides_Exp/SG_Exp_Digital_Receipts_ja.pdf" target="_blank"><font color="#666666"><u>PDF</u></font></a> 
+
+  </center>
+
+</td></tr>
+
+  
+
+
+
+
+
+  <tr>
+
+    <td width="40%">Employee Reimbursement</td>
+
+    <td width="40%">従業員への支払　<font size="1" font="" color="ff0000">(2021年12月17日版)</font></td>
+
+    <td>
+
+	<center>
+
+  <a href="https://assets.concur.com/Current_jp/STD_Guides_Exp/SG_Exp_Employee_Reimbursement-jp.doc" target="_blank"><font color="#666666"><u>DOC</u></font></a> - <a href="https://assets.concur.com/Current_jp/STD_Guides_Exp/SG_Exp_Employee_Reimbursement-jp.pdf" target="_blank"><font color="#666666"><u>PDF</u></font></a> 
+
+  </center>
+
+</td></tr>
+
+
+
+
+
+  <tr>
+
+    <td width="40%">File Export Configuration</td>
+
+    <td width="40%">会計ファイル出力　<font size="1">(2014年06月13日版)</font></td>
+
+    <td>
+
+	<center>
+
+  <a href="https://assets.concur.com/Current_jp/STD_Guides_Exp/SG_Exp_File_Export_Configuration-jp.doc" target="_blank"><font color="#666666"><u>DOC</u></font></a> - <a href="https://assets.concur.com/Current_jp/STD_Guides_Exp/SG_Exp_File_Export_Configuration-jp.pdf" target="_blank"><font color="#666666"><u>PDF</u></font></a> 
+
+  </center>
+
+</td></tr>
+
+
+ 
+	   <tr>
+
+    <td width="40%">JPT on NextGen UI</td><td width="40%">新 UI での日本の公共交通機関　<font size="1" color="ff0000">(2024年8月17日版)</font></td>
+
+    <td>
+
+	<center>
+
+  <a href="https://assets.concur.com/Current_jp/STD_Guides_Exp/SG_Exp_Japan_Public_Trans_NextGen_UI-jp.doc" target="_blank"><font color="#666666"><u>DOC</u></font></a> - <a href="https://assets.concur.com/Current_jp/STD_Guides_Exp/SG_Exp_Japan_Public_Trans_NextGen_UI-jp.pdf" target="blank"><font color="#666666"><u>PDF</u></font></a> 
+
+  </center>
+
+</td></tr>
+
+	  
+
+<tr>
+
+    <td width="40%">Expense Assistant </td>
+
+    <td width="40%">経費アシスタント<font size="1">(2020年12月03日版)</font></td>
+
+    <td>
+
+	<center>
+
+	  <a href="https://assets.concur.com/Current_jp/STD_Guides_Exp/SG_Exp_Expense_Assistant-jp.doc" target="_blank"><font color="#666666"><u>DOC</u></font></a> - <a href="https://assets.concur.com/Current_jp/STD_Guides_Exp/SG_Exp_Expense_Assistant-jp.pdf" target="_blank"><font color="#666666"><u>PDF</u></font></a> 
+
+  </center>
+
+</td></tr>		  
+
+
+
+	  <tr>
+
+    <td width="40%">Single Sign-On Overview (Shared)</td>
+
+    <td width="40%">シングル サインオン 概要（製品共通）<font size="1" color="#ff0000"> (2024年4月8日版)</font></td>
+
+    <td>
+
+	<center>
+
+  <a href="https://assets.concur.com/Current_jp/Guides_Exp/SG_Exp/Shr_SSO_Service_Overview-jp.doc" target="_blank"><font color="#666666"><u>DOC</u></font></a> - <a href="https://assets.concur.com/Current_jp/Guides_Exp/SG_Exp/Shr_SSO_Service_Overview-jp.pdf" target="_blank"><font color="#666666"><u>PDF</u></font></a> 
+
+  </center>
+
+</td></tr>
+
+
+
+<tr>
+
+    <td width="40%">Single Sign-On (Shared)</td>
+
+    <td width="40%">シングル サインオン（製品共通）<font size="1" color="#ff0000"> (2022年1月19日版)</font></td>
+
+    <td>
+
+	<center>
+
+  <a href="https://assets.concur.com/Current_jp/Guides_Exp/SG_Exp/Shr_SG_SSO_Mgmt-jp.doc" target="_blank"><font color="#666666"><u>DOC</u></font></a> - <a href="https://assets.concur.com/Current_jp/Guides_Exp/SG_Exp/Shr_SG_SSO_Mgmt-jp.pdf" target="_blank"><font color="#666666"><u>PDF</u></font></a> 
+
+  </center>
+
+</td></tr>
+
+
+
+  <tr>
+
+    <td width="40%">Users (Shared)</td>
+
+    <td width="40%">ユーザー（製品共通）　<font size="1" font="" color="ff0000">(2024年1月23日版)</font></td>
+
+    <td>
+
+	<center>
+
+  <a href="https://assets.concur.com/Current_jp/STD_Guides_Exp/SG_Shr_Users-jp.doc" target="_blank"><font color="#666666"><u>DOC</u></font></a> - <a href="https://assets.concur.com/Current_jp/STD_Guides_Exp/SG_Shr_Users-jp.pdf" target="_blank"><font color="#666666"><u>PDF</u></font></a> 
+
+  </center>
+
+</td></tr>
+
+
+
+
+
+  <tr>
+
+    <td width="40%">Reporting Configuration (Shared)</td>
+
+    <td width="40%">分析レポート構成（製品共通）　<font size="1" font="" color="ff0000">(2022年1月21日版)</font></td>
+
+    <td>
+
+		<center>
+
+	  <a href="https://assets.concur.com/Current_jp/STD_Guides_Exp/SG_Shr_Reporting_Configuration-jp.doc" target="_blank"><font color="#666666"><u>DOC</u></font></a> - <a href="https://assets.concur.com/Current_jp/STD_Guides_Exp/SG_Shr_Reporting_Configuration-jp.pdf" target="_blank"><font color="#666666"><u>PDF</u></font></a> 
+
+  </center>
+
+</td></tr>
+
+
+
+
+
+  <tr>
+
+    <td width="40%">Localization (Shared)</td>
+
+    <td width="40%">翻訳（製品共通）　<font size="1" font="" color="ff0000">(2021年12月16日版)</font></td>
+
+    <td>
+
+	<center>
+
+	  <a href="https://assets.concur.com/Current_jp/STD_Guides_Exp/SG_Shr_Localization-jp.doc" target="_blank"><font color="#666666"><u>DOC</u></font></a> - <a href="https://assets.concur.com/Current_jp/STD_Guides_Exp/SG_Shr_Localization-jp.pdf" target="_blank"><font color="#666666"><u>PDF</u></font></a> 
+
+  </center>
+
+</td></tr>
+
+
+
+	<tr>
+
+    <td width="40%">Mileage Service</td>
+
+    <td width="40%">走行距離<font size="1" color="#ff0000">(2022年3月22日版)</font></td>
+
+    <td>
+
+	<center>
+
+	  <a href="https://assets.concur.com/Current_jp/STD_Guides_Exp/SG_Exp_Mileage_Service-jp.doc" target="_blank"><font color="#666666"><u>DOC</u></font></a> - <a href="https://assets.concur.com/Current_jp/STD_Guides_Exp/SG_Exp_Mileage_Service-jp.pdf" target="_blank"><font color="#666666"><u>PDF</u></font></a> 
+
+  </center>
+
+</td></tr>
+
+	
+
+	<tr>
+
+    <td width="40%">Payment Types</td>
+
+    <td width="40%">支払タイプ　<font size="1" color="#ff0000">(2021年5月25日版)</font></td>
+
+    <td>
+
+	<center>
+
+	  <a href="https://assets.concur.com/Current_jp/STD_Guides_Exp/SG_Exp_Payment_Types-jp.doc" target="_blank"><font color="#666666"><u>DOC</u></font></a> - <a href="https://assets.concur.com/Current_jp/STD_Guides_Exp/SG_Exp_Payment_Types-jp.pdf" target="_blank"><font color="#666666"><u>PDF</u></font></a> 
+
+  </center>
+
+</td></tr>
+
+
+
+ <tr>
+
+    <td width="40%">Default Settings (Shared)</td>
+
+    <td width="40%">既定の構成設定（製品共通）　<font size="1">(2019年10月09日版)</font></td>
+
+    <td>
+
+	<center>
+
+	  <a href="https://assets.concur.com/Current_jp/STD_Guides_Exp/SG_Shr_Default_Settings-jp.doc" target="_blank"><font color="#666666"><u>DOC</u></font></a> - <a href="https://assets.concur.com/Current_jp/STD_Guides_Exp/SG_Shr_Default_Settings-jp.pdf" target="_blank"><font color="#666666"><u>PDF</u></font></a> 
+
+  </center>
+
+</td></tr>
+
+
+<tr>
+
+    <td width="40%">Password Policy (Shared)</td>
+
+    <td width="40%">パスワード ポリシー （製品共通）<font size="1" color="#ff0000">(2023年11月15日版)</font></td>
+
+    <td>
+
+	<center>
+
+  <a href="https://assets.concur.com/Current_jp/Guides_Exp/SG_Exp/SG_Shr_Password_Policy_Settings-jp.docx" target="_blank"><font color="#666666"><u>DOC</u></font></a> - <a href="https://assets.concur.com/Current_jp/Guides_Exp/SG_Exp/SG_Shr_Password_Policy_Settings-jp.pdf" target="_blank"><font color="#666666"><u>PDF</u></font></a> 
+
+  </center>
+
+</td></tr>
+
+
+
+
+</tbody></table>
+
+
+
+
+
+
+
+<b>限定機能</b>
+
+<table width="100%" border="2" cellspacing="0" cellpadding="3" bordercolor="#cbcbc4">
+
+<tbody>
+
+	<tr>
+
+    <td width="40%">Cash Advances</td>
+
+    <td width="40%">仮払 <font size="1" font="" color="ff0000">(2022年8月31日版)</font></td>
+
+    <td>
+
+<center>
+
+<a href="https://assets.concur.com/Current_jp/STD_Guides_Exp/SG_Exp_Cash_Adv-jp.doc" target="_blank"><font color="#666666"><u>DOC</u></font></a> - <a href="https://assets.concur.com/Current_jp/STD_Guides_Exp/SG_Exp_Cash_Adv-jp.pdf" target="_blank"><font color="#666666"><u>PDF</u></font></a> 
+
+  </center>
+
+</td></tr>
+
+
+
+<!--
+
+  <tr>
+
+    <td width="40%">Custom Workflow</td>
+
+    <td width="40%">カスタム ワークフロー<font size="1">(2017年3月18日版)</font></td>
+
+    <td>
+
+<center>
+
+<a href="https://assets.concur.com/Current_jp/STD_Guides_Exp/SG_Exp_Workflow-jp.doc" target="_blank"><font color="#666666"><u>DOC</u></font></a> - <a href="https://assets.concur.com/Current_jp/STD_Guides_Exp/SG_Exp_Workflow-jp.pdf" target="_blank"><font color="#666666"><u>PDF</u></font></a> 
+
+  </center>
+
+</td></td></tr>
+
+-->
+
+  <tr>
+
+    <td width="40%">Custom Audit Rules</td>
+
+    <td width="40%">カスタム監査ルール　<font size="1">(2017年03月18日版)</font><br>
+
+	別冊: <a href="https://assets.concur.com/Current_jp/Guides_Exp/SG_Exp/Operators_for_date.pdf">日付の演算子について</a></td>
+
+    <td>
+
+<center>
+
+<a href="https://assets.concur.com/Current_jp/STD_Guides_Exp/SG_Exp_Custom_Audit_Rules-jp.doc" target="_blank"><font color="#666666"><u>DOC</u></font></a> - <a href="https://assets.concur.com/Current_jp/STD_Guides_Exp/SG_Exp_Custom_Audit_Rules-jp.pdf" target="_blank"><font color="#666666"><u>PDF</u></font></a> 
+
+  </center>
+
+</td></tr>
+
+
+
+</tbody></table>
+
+
+
+
+
+
+
+<b>ユーザーガイド</b>
+
+
+
+ &nbsp; &nbsp;
+
+ &nbsp; &nbsp;
+
+ &nbsp;  <table width="100%" border="2" cellspacing="0" cellpadding="3" bordercolor="#cbcbc4">
+
+
+
+ <tbody><tr>
+
+    <td width="40%">App Center Admin (Shared)</td><td width="40%">App Center 管理者 <font size="1">(2017年8月19日版)</font></td>
+
+    <td>
+
+	<center>
+
+  <a href="https://assets.concur.com/Current_jp/STD_Guides_Exp/Shr_UG_AppCenterAdmin-jp.doc" target="_blank"><font color="#666666"><u>DOC</u></font></a> - <a href="https://assets.concur.com/Current_jp/STD_Guides_Exp/Shr_UG_AppCenterAdmin-jp.pdf" target="_blank"><font color="#666666"><u>PDF</u></font></a> 
+
+  </center>
+
+</td></tr>
+
+
+
+<tr>
+
+    <td width="40%">Budget Adjustments Import (Shared)</td>
+
+    <td width="40%">予算調整インポート（製品共通） <font size="1" font="" color="ff0000">(2022年1月21日版)</font></td>
+
+    <td>
+
+	<center>
+
+  <a href="https://assets.concur.com/Current_jp/STD_Guides_Exp/UG_Shr_Budget_Adjustments_Import_Std-jp.doc" target="_blank"><font color="#666666"><u>DOC</u></font></a> - <a href="https://assets.concur.com/Current_jp/STD_Guides_Exp/UG_Shr_Budget_Adjustments_Import_Std-jp.pdf" target="_blank"><font color="#666666"><u>PDF</u></font></a> 
+
+  </center>
+
+</td></tr>
+
+
+
+<tr>
+
+    <td width="40%">Budget Item Import (Shared)</td>
+
+    <td width="40%">予算項目インポート（製品共通） <font size="1">(2022年6月14日版)</font></td>
+
+    <td>
+
+	<center>
+
+  <a href="https://assets.concur.com/Current_jp/STD_Guides_Exp/UG_Shr_Budget_Item_Import_Std-jp.doc" target="_blank"><font color="#666666"><u>DOC</u></font></a> - <a href="https://assets.concur.com/Current_jp/STD_Guides_Exp/UG_Shr_Budget_Item_Import_Std-jp.pdf" target="_blank"><font color="#666666"><u>PDF</u></font></a> 
+
+  </center>
+
+</td></tr>
+
+
+
+ <tr>
+
+    <td width="40%">Cash Advance Admin</td><td width="40%">仮払管理 <font size="1" color="#ff0000">(2022年8月31日版)</font><font size="1" color="#ff0000"></font></td>
+
+    <td>
+
+	<center>
+
+  <a href="https://assets.concur.com/Current_jp/STD_Guides_Exp/UG_Exp_Cash_Adv_Admin-jp.doc" target="_blank"><font color="#666666"><u>DOC</u></font></a> - <a href="https://assets.concur.com/Current_jp/STD_Guides_Exp/UG_Exp_Cash_Adv_Admin-jp.pdf" target="_blank"><font color="#666666"><u>PDF</u></font></a> 
+
+  </center>
+
+</td></tr>
+
+
+
+   <tr>
+
+    <td width="40%">Change Log</td>
+
+    <td width="40%">変更ログ <font size="1">(2014年7月11日版)</font></td>
+
+    <td>
+
+	<center>
+
+  <a href="https://assets.concur.com/Current_jp/STD_Guides_Exp/UG_Exp_ChangeLog-jp.doc" target="_blank"><font color="#666666"><u>DOC</u></font></a> - <a href="https://assets.concur.com/Current_jp/STD_Guides_Exp/UG_Exp_ChangeLog-jp.pdf" target="_blank"><font color="#666666"><u>PDF</u></font></a> 
+
+  </center>
+
+</td></tr>
+
+
+
+   <tr>
+
+    <td width="40%">Company Card Admin</td>
+
+    <td width="40%">法人カード管理　<font size="1" font="" color="ff0000">(2024年5月23日版)</font></td>
+
+    <td>
+
+	<center>
+
+  <a href="https://assets.concur.com/Current_jp/STD_Guides_Exp/UG_Exp_CompanyCardAdmin-jp.doc" target="_blank"><font color="#666666"><u>DOC</u></font></a> - <a href="https://assets.concur.com/Current_jp/STD_Guides_Exp/UG_Exp_CompanyCardAdmin-jp.pdf" target="_blank"><font color="#666666"><u>PDF</u></font></a> 
+
+  </center>
+
+</td></tr>
+
+
+
+<tr>
+  <td width="40%">Japan Public Transport on NextGen UI</td>
+  <td width="40%">新 UI での日本の公共交通機関<font size="1">(2022年4月23日版)</font></td>
+  <td>
+	  <center>
+      <a href="https://assets.concur.com/Current_jp/STD_Guides_Exp/UG_Exp_Japan_Public_Trans_NextGen_UI-jp.doc" target="_blank"><font color="#666666"><u>DOC</u></font></a> - <a href="https://assets.concur.com/Current_jp/STD_Guides_Exp/UG_Exp_Japan_Public_Trans_NextGen_UI-jp.pdf" target="_blank"><font color="#666666"><u>PDF</u></font></a> 
+    </center>
+  </td>
+</tr>  
+
+<tr>
+  <td width="40%">Japan Public Transport on NextGen UI - Help on Commuter Pass Registration</td>
+  <td width="40%">新 UI での通勤定期券の登録に関するヘルプ<font size="1">(2022年9月22日版)</font></td>
+  <td>
+	  <center>
+      <a href="https://assets.concur.com/Current_jp/JPTonNUI_ComPass_Help.pdf" target="_blank"><font color="#666666"><u>PDF</u></font></a> 
+    </center>
+  </td>
+</tr>  
+
+
+
+   <tr>
+
+    <td width="40%">Payment Manager</td>
+
+    <td width="40%">支払マネージャー　<font size="1" font="" color="ff0000">(2018年3月17日版)</font></td>
+
+    <td>
+
+	<center>
+
+  <a href="https://assets.concur.com/Current_jp/STD_Guides_Exp/UG_Exp_PaymentManager-jp.doc" target="_blank"><font color="#666666"><u>DOC</u></font></a> - <a href="https://assets.concur.com/Current_jp/STD_Guides_Exp/UG_Exp_PaymentManager-jp.pdf" target="_blank"><font color="#666666"><u>PDF</u></font></a> 
+
+  </center>
+
+</td></tr>
+
+
+
+
+
+
+
+   <tr>
+
+    <td width="40%">Process Reports</td>
+
+    <td width="40%">レポート処理　<font size="1" font="" color="ff0000">(2019年10月31日版)</font></td>
+
+    <td>
+
+	<center>
+
+  <a href="https://assets.concur.com/Current_jp/STD_Guides_Exp/UG_Exp_ProcessReports-jp.doc" target="_blank"><font color="#666666"><u>DOC</u></font></a> - <a href="https://assets.concur.com/Current_jp/STD_Guides_Exp/UG_Exp_ProcessReports-jp.pdf" target="_blank"><font color="#666666"><u>PDF</u></font></a> 
+
+  </center>
+
+</td></tr>
+
+
+
+   <tr>
+
+    <td width="40%">Proxy Logon (Shared)</td>
+
+    <td width="40%">プロキシ ログオン（製品共通）　<font size="1" font="" color="ff0000">(2019年12月17日版)</font></td>
+
+    <td>
+
+	<center>
+
+  <a href="https://assets.concur.com/Current_jp/STD_Guides_Exp/UG_Shr_Proxy_Logon-jp.doc" target="_blank"><font color="#666666"><u>DOC</u></font></a> - <a href="https://assets.concur.com/Current_jp/STD_Guides_Exp/UG_Shr_Proxy_Logon-jp.pdf" target="_blank"><font color="#666666"><u>PDF</u></font></a> 
+
+  </center>
+
+</td></tr>
+
+
+
+
+
+   <tr>
+
+    <td width="40%">Web Services</td>
+
+    <td width="40%">Web サービス　<font size="1">(2014年07月11日版)</font></td>
+
+    <td>
+
+	<center>
+
+  <a href="https://assets.concur.com/Current_jp/STD_Guides_Exp/UG_Exp_WebServices-jp.doc" target="_blank"><font color="#666666"><u>DOC</u></font></a> - <a href="https://assets.concur.com/Current_jp/STD_Guides_Exp/UG_Exp_WebServices-jp.pdf" target="_blank"><font color="#666666"><u>PDF</u></font></a> 
+
+  </center>
+
+</td></tr>
+
+
+
+</tbody></table>
+
+
+
+		
+
+<b>抽出</b>
+
+<table width="100%" border="2" cellspacing="0" cellpadding="3" bordercolor="#cbcbc4">
+
+
+
+   <tbody><tr>
+
+    <td width="40%">Cash Advance Extract</td>
+
+    <td width="40%">仮払抽出 <font size="1">(2016年12月15日版)</font><font size="1" color="#ff0000">※ 限定機能</font></td>
+
+    <td>
+
+	<center>
+
+  <a href="https://assets.concur.com/Current_jp/STD_Guides_Exp/UG_Exp_Cash_Advance_Extract-jp.doc" target="_blank"><font color="#666666"><u>DOC</u></font></a> - <a href="https://assets.concur.com/Current_jp/STD_Guides_Exp/UG_Exp_Cash_Advance_Extract-jp.pdf" target="_blank"><font color="#666666"><u>PDF</u></font></a> 
+
+  </center>
+
+</td></tr>
+
+
+
+   <tr>
+
+    <td width="40%">Payment Manager (Accounting) Extract - Export File for Concur Standard</td>
+
+    <td width="40%">支払マネージャー抽出 - Concur Standard の会計出力ファイル　<font size="1" font="" color="ff0000">(2022年4月13日版)</font></td>
+
+    <td>
+
+	<center>
+
+  <a href="https://assets.concur.com/Current_jp/STD_Guides_Exp/UG_Exp_Acctg_Extract-jp.doc" target="_blank"><font color="#666666"><u>DOC</u></font></a> - <a href="https://assets.concur.com/Current_jp/STD_Guides_Exp/UG_Exp_Acctg_Extract-jp.pdf" target="_blank"><font color="#666666"><u>PDF</u></font></a> 
+
+  </center>
+
+</td></tr>
+
+
+
+ 
+
+</tbody></table>
+
+<!--
+
+<b>Analysis/Intelligence</b>
+
+<table width="100%" border=2 cellspacing=0 cellpadding=3 bordercolor="#cbcbc4">
+
+		   <tr>
+
+    <td width="40%"><big><font color="#004a7d"><b>Analysis/Intelligence</b></font></big></td>
+
+    <td width="60%"><a href="https://assets.concur.com/Current_jp/Cognos/_Cognos_CCC_JAPAN.htm" target="_blank">設定ガイド/ユーザー ガイド</a>	<br>リリース ノート　	<a target="_blank" href="https://assets.concur.com/Current_jp/ReleaseNotes_BI/_RN_CCC_BI_JAPAN.htm">日本語版</a>　-　<a href="https://www.concurtraining.com/customers/tech_pubs/Docs/Cognos/_RN/_CCC_RN.htm" target="_blank">英語版</a></td>
+
+	</tr>
+
+</table>
+
+
+
+<b>Mobile</b>
+
+<table width="100%" border=2 cellspacing=0 cellpadding=3 bordercolor="#cbcbc4">
+
+  
+
+<tr>
+
+    <td width="40%"><big><font color="#004a7d"><b>Mobile</b></font></big></td>
+
+    <td width="60%">クイック スタートガイド（iPhone）<a href="https://assets.concur.com/Current_jp/Guides_Mob/Intro_Mobile_iPhone-jp.doc" target="_blank">Doc</a>　-　<a href="https://assets.concur.com/Current_jp/Guides_Mob/Intro_Mobile_iPhone-jp.pdf" target="_blank">PDF</a><br>
+
+    クイック スタートガイド（Android）<a href="https://assets.concur.com/Current_jp/Guides_Mob/Intro_Mobile_Android-jp.doc" target="_blank">Doc</a>　-　<a href="https://assets.concur.com/Current_jp/Guides_Mob/Intro_Mobile_Android-jp.pdf" target="_blank">PDF</a><br>
+
+	リリース ノート　<a target="_blank" href="https://assets.concur.com/Current_jp/ReleaseNotes_Mob/_mob_CCC_JAPAN.htm">日本語版</a>　-　<a target="_blank" href="https://www.concurtraining.com/customers/tech_pubs/MobileDocs/ReleaseNotes/_CCC_RN.htm">英語版</a>
+
+	<br>
+
+	デバイスごとの機能一覧　<a target="_blank" href="https://www.concurtraining.com/customers/tech_pubs/Current_jp\Guides_Mob/Feature_List_by_Device-jp.pdf">日本語版</a>　-　<a target="_blank" href="https://www.concurtraining.com/customers/tech_pubs/MobileDocs/Feature_List_by_Device.pdf">英語版</a></td>
+
+	</tr>
+
+-->
+
+ 
+
+		
+
+
+
+</article>
+
+</section>
+
+</div> <!--main-->
+
+
+
+<div class="divide-top">
+
+	<footer class="grid-wrap">
+
+		<div class="up grid col-two-third ">
+
+			<a href="https://assets.concur.com/Current_jp/STD_Guides_Exp/_Docs_Std_ExpHelp_jp.htm#navtop" title="Go back up">↑ トップに戻る</a>
+
+		</div>
+
+	</footer>
+
+</div>
+
+
+
+</div>
+
+
+
+<!-- Javascript - jQuery -->
+
+<script src="./index_files/ga.js.ダウンロード"></script><script src="./index_files/jquery.min.js.ダウンロード"></script>
+
+<script>window.jQuery || document.write('<script src="js/jquery-1.7.2.min.js"><\/script>')</script><script src="./index_files/jquery-1.7.2.min.js.ダウンロード"></script><script src="./index_files/jquery-1.7.2.min(1).js.ダウンロード"></script>
+
+
+
+<!--[if (gte IE 6)&(lte IE 8)]>
+
+<script src="js/selectivizr.js"></script>
+
+<![endif]-->
+
+
+
+</font></body></html>
