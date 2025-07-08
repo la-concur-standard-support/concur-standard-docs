@@ -594,9 +594,14 @@ ul.page-numbers{float: right;overflow:hidden; display:block;}
 	p, h2, h3{orphans:3; widows:3}
 	h2, h3{page-break-after:avoid} 
 }
- 
- 
- 
+
 /* -------------------------------------------------------------
 ======	END
 ------------------------------------------------------------- */
+
+/* 20250708 SHIKI */
+/* 4番目の列のtdを非表示にする */
+td:nth-child(4) {
+  display: none;
+}
+
